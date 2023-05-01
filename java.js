@@ -62,6 +62,7 @@ gui.netdelay.oninput = () => {
   state.netDelay = gui.netdelay.value;
 }
 
+
 gui.numNodos.oninput = () => {
   gui.numNodosvalue.innerHTML = gui.numNodos.value;
   state.numNodos = gui.numNodos.value;
