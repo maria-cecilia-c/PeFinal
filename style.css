@@ -1,17 +1,20 @@
 body {
-
-  background-size: contain;
-  background-repeat: no-repeat;
+  background: linear-gradient(to right, rgb(238, 252, 255), rgb(197, 197, 197));
 }
-
 
 .todo{
   text-align:center;
 }
+
 .texto{
   display: inline-table;
-  -webkit-text-stroke: 1.5px #923b3d;
+  -webkit-text-stroke: 1px #fabeff;
   color: #ff81e3; 
+}
+
+p { 
+  font-weight: bold; 
+  font-style: italic;
 }
 .origen{
   display: flex;
@@ -29,8 +32,16 @@ body {
   height: 279px;
   width: 260px;
 }
-    
-
+.box2 {
+  align-items: center;
+  padding: 3px 10px;
+  border: rgb(131, 224, 236) 5px dashed;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  margin-left: 400px;
+  margin-right: 400px;
+}
+   
 .rangos{
   display: flex;
   justify-content: center;
