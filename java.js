@@ -100,8 +100,8 @@ const sendImage = () => {
 
   state.loop = setInterval(() => {
 
-    state.totalTime++
-    state.sendingPackage++
+    state.totalTime++ 
+    state.sendingPackage++ 
 
     //-- dimensiones del rectángulo 1
     sx1 = 0;
@@ -155,7 +155,7 @@ const sendImage = () => {
     }
 
     console.log("Enviando...");
-  }, state.netDelay )
+  }, (state.netDelay * state.numNodos)/100)
 }
 
 console.log("Red preparada...");
