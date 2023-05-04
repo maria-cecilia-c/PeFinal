@@ -1,5 +1,7 @@
 body {
-  background: linear-gradient(to right, rgb(238, 252, 255), rgb(197, 197, 197));
+  background-image: url(fondo.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 .todo{
@@ -15,6 +17,8 @@ body {
 p { 
   font-weight: bold; 
   font-style: italic;
+  -webkit-text-stroke: 0.5px #ffffff;
+  color: #ffffff; 
 }
 .origen{
   display: flex;
