@@ -1,5 +1,6 @@
 console.log("Montando la red...")
 
+//fgfg
 const gui = {
   bsend : document.getElementById("bsend"),
   netdelay : document.getElementById("netdelay"),
