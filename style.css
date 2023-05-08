@@ -1,7 +1,5 @@
 body {
   background-image: url(fondo.jpg);
-  background-repeat: no-repeat;
-  background-size: 100%;
 }
 
 .todo{
@@ -71,12 +69,13 @@ display: none;
 }
 
 @media screen and (max-width: 600px) {
-  .todo{
-      width: 100%;
-      height: 100%;
-  }
   .hmtl{
     width: 100%;
     height: 100%;
   }
+  .todo{
+      width: 100%;
+      height: 100%;
+  }
+  
 }
